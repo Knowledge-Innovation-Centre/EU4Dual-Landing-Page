@@ -1,5 +1,11 @@
-/* Style for the card container */
-.uk-card {
+/* Add padding to the body */
+body {
+    padding: 20px; /* Adjust the padding as needed */
+    margin: 0; /* Reset margin to avoid any default browser margin */
+  }
+  
+  /* Style for the card container */
+  .uk-card {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -33,6 +39,7 @@
     flex-grow: 1; /* Make the paragraph take up the remaining space */
     margin-bottom: 20px; /* Add space at the bottom */
     text-align: justify; /* Justify text */
+    color: #4f5ba4; /* Set text color */
   }
   
   /* Style for the card footer */
