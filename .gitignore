@@ -1,0 +1,99 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Optional npm cache directory
+.npm/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# MacOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build directories
+dist/
+build/
+tmp/
+temp/
+out/
+release/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# HTMX specific
+*.cache
+
+# Static files
+*.log
+*.lock
+
+# Miscellaneous
+*.env
+*.env.*.local
+
+# IDEs and editors
+/.project
+/.classpath
+/.c9/
+.c9/
+.project/
+.settings/
+.idea/
+.vscode/
+.history/
+
+# Dependency directories
+/node_modules
+jspm_packages/
+
+# TypeScript
+*.tsbuildinfo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Custom
+*.local
+*.env
+*.log
+*.lock
+*.bak
+*.tmp
+*.temp
+
+# Exclude all HTML files (example if not using them directly)
+#*.html
