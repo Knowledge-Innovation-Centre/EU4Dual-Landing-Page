@@ -63,5 +63,15 @@
       </div>
     </div>
   </div>
+  <script>
+    // Prevent right-click context menu for all links
+    document.querySelectorAll('a').forEach(link => {
+      link.addEventListener('contextmenu', event => {
+        event.preventDefault();
+        const href = link.getAttribute('onclick').match(/'(.*?)'/)[1];
+        window.open(href, '_blank');
+      });
+    });
+  </script>
 </body>
 </html>
